@@ -28,9 +28,14 @@ function register(event){
     
 }
 
+function getdata(){
+    var dataFromLS = JSON.parse(localStorage.getItem("StudentsList"));
+    console.log(dataFromLS)
+}
 
 
-// var mydata = {
+
+// var mydata = { 
 //     myage:50,
 //     mysurname:"pooja",
 //     xyz: true,
