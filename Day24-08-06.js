@@ -9,6 +9,15 @@ function register(event){
     var password= document.getElementById("userpassword").value;
     console.log(password,"-password")
 
+    const userData = {
+        username: name,
+        usernumber: number,
+        useremail: email,
+        userpassword: password
+    }
+
+    localStorage.setItem("StudentsList", JSON.stringify(userData))
+
     document.getElementById("username").value = "";
     document.getElementById("usernumber").value = "";
     document.getElementById("useremail").value = "";
@@ -18,3 +27,14 @@ function register(event){
   
     
 }
+
+
+
+// var mydata = {
+//     myage:50,
+//     mysurname:"pooja",
+//     xyz: true,
+// }
+// console.log(mydata.myage)
+// console.log(mydata.mysurname)
+// console.log(mydata.xyz)
