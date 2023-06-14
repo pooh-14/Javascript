@@ -56,6 +56,6 @@ twostage(start, end);
 
 
 
-// dom/bom manupulation
+// dom/bom manupulation  
 // string methods
 // w3school
