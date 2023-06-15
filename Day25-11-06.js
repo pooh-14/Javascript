@@ -33,19 +33,19 @@
 
 // }
 
-var start = 872;
-var end = 656;
+let start = 872;
+let end = 656;
 function twostage(start, end) {
-  var filteredArray = [];
-  var result = [];
-  for (var i = start; i >= end; i--) {
+  let filteredArray = [];
+  let result = [];
+  for (let i = start; i >= end; i--) {
     if ([i] % 2 == 0 && [i] % 5 == 0 && [i] % 10 == 0) {
       
           filteredArray.push([i]);
     }
   }
 //   console.log(filteredArray);
-  for(var j=0; j<filteredArray.length;j++){
+  for(let j=0; j<filteredArray.length;j++){
     // console.log(filteredArray[j])
     result.push(filteredArray[j+=1])
   }
