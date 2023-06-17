@@ -1,7 +1,7 @@
 // setTimeout(() => { console.log("After 5 sec..") } , 2000)
 // setInterval(() => { console.log("Got..") }, 5000)
 
-function resolveAfter2Seconds() {
+function resolveAfter5Seconds() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve('response');
