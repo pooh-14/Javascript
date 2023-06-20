@@ -1,42 +1,65 @@
 
-var array = [{ id: 1, name: "Rahul", age: 23, surname: "xyz" },
-{ id: 2, name: "Rakesh", age: 24, surname: "xyz" },
-{ id: 3, name: "Swaraj", age: 25, surname: "xyz" },
-{ id: 4, name: 'abc', age: 29, surname: "xyz" }];
+// var array = [{ id: 1, name: "Rahul", age: 23, surname: "xyz" },
+// { id: 2, name: "Rakesh", age: 24, surname: "xyz" },
+// { id: 3, name: "Swaraj", age: 25, surname: "xyz" },
+// { id: 4, name: 'abc', age: 29, surname: "xyz" }];
 
-var userId = 2;
-var selecteduser = array.find((user)=> user.id==userId)
-console.log(selecteduser)
+// var userId = 2;
+// var selecteduser = array.find((user)=> user.id==userId)
+// console.log(selecteduser)
 
-var userAge = 25;
-var selecteduser = array.find((object)=> object.age==userAge)
-console.log(selecteduser)
+// var userAge = 25;
+// var selecteduser = array.find((object)=> object.age==userAge)
+// console.log(selecteduser)
 
-var userName= "Rahul";
-var selecteduser = array.find((user)=> user.name== userName)
-console.log(selecteduser)
+// var userName= "Rahul";
+// var selecteduser = array.find((user)=> user.name== userName)
+// console.log(selecteduser)
 
-var userName = 'Rakesh';
-var index = array.findIndex((subject) => subject.name == userName);
-console.log(index)
+// var userName = 'Rakesh';
+// var index = array.findIndex((subject) => subject.name == userName);
+// console.log(index)
 
-var userName = 'giuhouhl';
-var index = array.findIndex((subject) => subject.name == userName);
-console.log(index)
+// var userName = 'giuhouhl';
+// var index = array.findIndex((subject) => subject.name == userName);
+// console.log(index)
 
-array.map((object)=>{
-    console.log(object)
-})
+// array.map((object)=>{
+//     console.log(object)
+// })
 
-var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
-console.log(numbers.sort())
+// var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
+// console.log(numbers.sort())
 
-var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
-console.log(numbers.sort((a,b)=>a-b))
+// var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
+// console.log(numbers.sort((a,b)=>a-b))
 
-var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
-console.log(numbers.sort((a,b)=>b-a))
+// var numbers = [1, 8, 9, 15, 3, 7, 37, 2, 6, 1, 6, 7, 9];
+// console.log(numbers.sort((a,b)=>b-a))
 
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-const result = words.filter(word => word.length <10);
-console.log(result)
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+// const result = words.filter(word => word.length <10);
+// console.log(result)
+
+var res = []
+var nums = [3,2,2,3];
+var val = 3
+
+for(let i=0 ; i<nums.length; i++){
+    if(nums[i] !== val){
+        res.push(nums[i])
+    }
+}
+console.log(res);
+  
+
+var res = []
+var nums = [0,1,2,2,3,0,4,2]
+var val = 2
+
+for(let i=0 ; i<nums.length; i++){
+    if(nums[i] !== val){
+        res.push(nums[i])
+    }
+}
+console.log(res);
