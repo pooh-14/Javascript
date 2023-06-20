@@ -26,12 +26,19 @@
 
 // Q. Find the numbers who divisible by 5 from given range and return the array of those number...
 
-// var start = 9876;
-// var end = 10234;
+var start = 9876;
+var end = 10234;
 
-// function diviBy5(start, end){
-
-// }
+function diviBy5(start, end){
+var res=[];
+for(var i=start; i<end;i++){
+  if([i] % 5 == 0){
+    res.push([i]);
+  }
+}
+console.log([res])
+}
+function diviBy5(start, end)
 
 // let start = 872;
 // let end = 656;
@@ -53,25 +60,25 @@
 // }
 // twostage(start, end);
 
-let start = 656;
-let end = 872;
-function twostage(start, end) {
-  let filteredArray = [];
-  let result = [];
-  for (let i = start; i <= end; i++) {
-    if ([i] % 2 == 0 && [i] % 5 == 0 && [i] % 10 == 0) {
+// let start = 656;
+// let end = 872;
+// function twostage(start, end) {
+//   let filteredArray = [];
+//   let result = [];
+//   for (let i = start; i <= end; i++) {
+//     if ([i] % 2 == 0 && [i] % 5 == 0 && [i] % 10 == 0) {
       
-          filteredArray.push([i]);
-    }
-  }
-  console.log(filteredArray);
-  for(let j=0; j<filteredArray.length;j=j+2){
-    // console.log(filteredArray[j])
-    result.push(filteredArray[j])
-  }
-  console.log(result)
-}
-twostage(start, end);
+//           filteredArray.push([i]);
+//     }
+//   }
+//   console.log(filteredArray);
+//   for(let j=0; j<filteredArray.length;j=j+2){
+//     // console.log(filteredArray[j])
+//     result.push(filteredArray[j])
+//   }
+//   console.log(result)
+// }
+// twostage(start, end);
 
 
 

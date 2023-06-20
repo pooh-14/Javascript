@@ -1,11 +1,11 @@
-function nameoffunction (props){
-    console.log(props)
-}
-nameoffunction( "hii")
-var nameoffunction2 = (props)=> {
-    console.log(props)
-}
-nameoffunction2("hii")
+// function nameoffunction (props){
+//     console.log(props)
+// }
+// nameoffunction( "hii")
+// var nameoffunction2 = (props)=> {
+//     console.log(props)
+// }
+// nameoffunction2("hii")
 
 // var myname="awdiz";//assign
 // myname="hello";//re-assign
@@ -32,14 +32,25 @@ nameoffunction2("hii")
 // var res= outerfunction();
 // console.log(res())
 
-function external(){
-    var institute="awdiz";
-    console.log("the external function")
-    function internal(){
-        console.log("the internal function ",institute)
-    }
-    return internal;
-}
-var result =external();
-console.log(result())
+// function external(){
+//     var institute="awdiz";
+//     console.log("the external function")
+//     function internal(){
+//         console.log("the internal function ",institute)
+//     }
+//     return internal;
+// }
+// var result =external();
+// console.log(result())
 
+
+
+nums = [1,1,2]
+var i= 0;
+for(var j=0; j<nums.length;j++){
+    if(nums[i]!==nums[j]){
+        i++;
+        (nums[i]=nums[j]);
+    }
+}
+return i+1

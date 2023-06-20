@@ -1,4 +1,4 @@
-// var num1= 2345;
+   // var num1= 2345;
 // var num2=6789;
 // function addition(){
 //     var add= num1+num2;
