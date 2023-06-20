@@ -53,4 +53,4 @@ for(var j=0; j<nums.length;j++){
         (nums[i]=nums[j]);
     }
 }
-return i+1
+return i+1;
