@@ -12,13 +12,26 @@
 // console.log(res);
   
 
+// var res = []
+// var nums = [0,1,2,2,3,0,4,2]
+// var val = 2
+
+// for(let i=0 ; i<nums.length; i++){
+//     if(nums[i] !== val){
+//         res.push(nums[i])
+//     }
+// }
+// console.log(res);
+
 var res = []
-var nums = [0,1,2,2,3,0,4,2]
-var val = 2
+var removeElement = function(nums, val) {
+   
 
 for(let i=0 ; i<nums.length; i++){
-    if(nums[i] !== val){
+    if(nums[i] != val){
         res.push(nums[i])
     }
 }
-console.log(res);
+return res;
+}
+console.log(removeElement([3,2,2,3], 3))
