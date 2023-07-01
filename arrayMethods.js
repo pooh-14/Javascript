@@ -243,4 +243,6 @@
 //   return x + x;
 // });
 
-// console.log(newArr);
+// console.log(newArr);/
+
+
