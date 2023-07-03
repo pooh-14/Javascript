@@ -9,9 +9,9 @@
 
 //*FILTER* =>creates a shallow copy
 
-// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-// const result = words.filter(word => word.length < 6);
-// console.log(result);
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length < 6);
+console.log(result);
 
 
 //*FIND* => used to return the first element in the provided array
