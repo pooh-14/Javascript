@@ -9,9 +9,9 @@
 
 //*FILTER* =>creates a shallow copy
 
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-const result = words.filter(word => word.length < 6);
-console.log(result);
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+// const result = words.filter(word => word.length < 6);
+// console.log(result);
 
 
 //*FIND* => used to return the first element in the provided array
@@ -24,7 +24,7 @@ console.log(result);
 //*FINDINDEX* =>  returns the index
 
 // const array1 = [5, 12, 8, 120, 44];
-// const isLargeNumber = (element) => element > 110;
+// const isLargeNumber = (element) => element > 11;
 // console.log(array1.findIndex(isLargeNumber));
 
 
@@ -112,3 +112,14 @@ console.log(result);
 //*FROM* =>creates a new array
 
 // console.log(Array.from('foo'));
+
+
+const array1 = [1, 2, 3, 4];
+
+
+const red = array1.reduce((acc, cur)=>{
+return(acc+cur)
+},23)
+console.log(red)
+
+
